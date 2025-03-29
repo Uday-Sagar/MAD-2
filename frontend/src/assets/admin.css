@@ -1,0 +1,93 @@
+.admin-sidebar {
+width: 20vw;
+height: 100vh;
+background-color: #58ebe3;
+display: flex;
+flex-direction: column;
+padding: 20px;
+position: fixed;
+left: 0;
+top: 0;
+z-index: 1000;
+}
+
+.admin-user-section {
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.admin-nav-links {
+display: flex;
+flex-direction: column;
+}
+
+.admin-nav-button {
+text-decoration: none;
+font-size: 16px;
+padding: 12px;
+margin-bottom: 10px;
+background: transparent;
+border: none;
+text-align: left;
+border-radius: 5px;
+}
+
+.admin-logout-button {
+margin-top: auto;
+background-color: #e74c3c;
+border: none;
+color: white;
+padding: 12px;
+cursor: pointer;
+font-size: 16px;
+border-radius: 5px;
+}
+
+.admin-logout-button:hover {
+background-color: #c0392b;
+}
+
+.admin-layout {
+display: flex;
+}
+
+.admin-main-content {
+width: 80vw; 
+margin-left: 20vw; 
+padding: 20px;
+min-height: 100vh;
+}
+
+.service-table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+.service-table th, .service-table td {
+border: 1px solid #ddd;
+padding: 10px;
+text-align: left;
+}
+
+.service-table th {
+background-color: #f4f4f4;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.add-service-button {
+background-color: #58ebe3;
+color: black;
+border: none;
+padding: 8px 16px;
+font-size: 16px;
+border-radius: 5px;
+cursor: pointer;
+}

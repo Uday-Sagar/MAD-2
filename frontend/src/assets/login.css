@@ -1,0 +1,24 @@
+
+.main-body{
+    margin: 0;
+    background-color: #f8f4ac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container {
+  width: 400px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+.form-group {
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+.btn {
+  width: 100%;
+}

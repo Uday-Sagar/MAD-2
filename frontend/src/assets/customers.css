@@ -1,0 +1,61 @@
+.cust-sidebar {
+width: 20vw;
+height: 100vh;
+background-color: #58ebe3;
+display: flex;
+flex-direction: column;
+padding: 20px;
+position: fixed;
+left: 0;
+top: 0;
+z-index: 1000;
+}
+
+.cust-user-section {
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.cust-nav-links {
+display: flex;
+flex-direction: column;
+}
+
+.cust-nav-button {
+text-decoration: none;
+font-size: 16px;
+padding: 12px;
+margin-bottom: 10px;
+background: transparent;
+border: none;
+text-align: left;
+border-radius: 5px;
+}
+
+.cust-logout-button {
+margin-top: auto;
+background-color: #e74c3c;
+border: none;
+color: white;
+padding: 12px;
+cursor: pointer;
+font-size: 16px;
+border-radius: 5px;
+}
+
+.cust-logout-button:hover {
+background-color: #c0392b;
+}
+
+.cust-layout {
+display: flex;
+}
+
+.cust-main-content {
+width: 80vw; 
+margin-left: 20vw; 
+padding: 20px;
+min-height: 100vh;
+}
