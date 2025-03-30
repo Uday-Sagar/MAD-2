@@ -39,7 +39,7 @@ Then execute the following command
 npm run dev
 ```
 
-Once vue js is running, it will give you a link, `ctril+click` on that, which will direct you to browser where the link will open.
+Once vue js is running, it will give you a link, `ctrl+click` on that, which will direct you to browser where the link will open.
 
 
 

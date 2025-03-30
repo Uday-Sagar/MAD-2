@@ -13,7 +13,7 @@ class Users(db.Model, UserMixin):
 
     customer = db.relationship('Customers', backref='user', uselist=False)
     professional = db.relationship('Service_Professionals', backref='user', uselist=False)
-
+d
     def __init__(self, Name, Email, Password, Role):
         self.Name = Name
         self.Email = Email 
